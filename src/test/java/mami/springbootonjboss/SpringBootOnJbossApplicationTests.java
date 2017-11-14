@@ -17,7 +17,6 @@ public class SpringBootOnJbossApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println("GET ALL RECORDINGS ...");
 		controller.all();
 	}
 

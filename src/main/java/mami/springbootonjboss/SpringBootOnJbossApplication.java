@@ -22,7 +22,6 @@ public class SpringBootOnJbossApplication extends SpringBootServletInitializer {
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
 
-
 		System.out.println("MAMI: HELLO WORLD CONFIGURE");
 
 		logger.info("MAMI: HELLO WORLD SLF4J CONFIGURE: INFO");
